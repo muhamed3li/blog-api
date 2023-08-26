@@ -35,7 +35,7 @@ This project implements a simple API for managing blog posts using Laravel. It i
    php artisan migrate
    ```
 
-6. (Optional) Seed the database with sample users:
+6. Seed the database with sample users:
 
    ```bash
    php artisan db:seed --class=UserSeeder
@@ -72,14 +72,17 @@ This project implements a simple API for managing blog posts using Laravel. It i
 To access protected routes, you need to provide an authentication token. You can login with the users below to obtain an authentication token.
 
 email: user1@demo.com
+
 password: user123
 
+
 email: user2@demo.com
+
 password: user123
 
 ## Postman Collection
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/18901365-d179ac7b-a3a8-47c6-89f0-754067929282?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D18901365-d179ac7b-a3a8-47c6-89f0-754067929282%26entityType%3Dcollection%26workspaceId%3Df9bc4aca-338f-4998-ac1d-d42a8df22e07)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/18901365-d179ac7b-a3a8-47c6-89f0-754067929282?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D18901365-d179ac7b-a3a8-47c6-89f0-754067929282%26entityType%3Dcollection%26workspaceId%3Df9bc4aca-338f-4998-ac1d-d42a8df22e07)
 
 Click the "Run in Postman" button above to import the Postman collection and start testing the API endpoints.
 
